@@ -1,6 +1,6 @@
 {
   "name": "easy-mnist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple way to acces the MNIST dataset",
   "main": "main.js",
   "scripts": {
@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "fs": "0.0.1-security",
-    "mathjs": "^9.0.0"
+    "mathjs": "^9.0.0",
+    "path": "^0.12.7"
   }
 }
