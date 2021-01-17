@@ -1,7 +1,12 @@
 require('mathjs');
 const fs = require('fs');
-
-let mnist = JSON.parse(fs.readFileSync('mnist.json', 'utf-8'));
+let mnist = {};
+let dataArray = [];
+for (let i = 0; i < 7;i++) {
+    let batch = JSON.parse(fs.readFileSync('./dataset/mnist_batch_'+i+'.json', 'utf-8'));
+    dataArray = dataArray.concat(batch.data);
+}
+mnist.data = dataArray;
 function shuffle(arr) {
     let currentId = arr.length;
 
@@ -41,7 +46,6 @@ function makeData(train,test,options) {
     }
     return {traindata:tr,testdata:te};
 }
-
 module.exports = {
     makeData: makeData,
     mnist: mnist.data
