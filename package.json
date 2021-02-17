@@ -1,6 +1,6 @@
 {
   "name": "easy-mnist",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple way to acces the MNIST dataset",
   "main": "main.js",
   "scripts": {

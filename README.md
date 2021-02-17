@@ -1,5 +1,5 @@
-# Easy MNIST
-Easy mnist allows you to acces the popular mnist dataset.
+# easy-mnist
+easy-mnist allows you to easily access the popular MNIST dataset.
 
 ## Install
 ```
