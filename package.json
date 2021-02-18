@@ -1,11 +1,15 @@
 {
   "name": "easy-mnist",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple way to acces the MNIST dataset",
   "main": "main.js",
   "scripts": {
     "test": "test"
   },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiasvlevi/easy-mnist.git"
+    },
   "keywords": [
     "MNIST",
     "mnist",
