@@ -11,11 +11,11 @@ Here is how you would get a training & testing set.
 ```js
 const dataset = require('easy-mnist').makeData(60000,10000);
 
-dataset.traindata[0].label
-dataset.traindata[0].image
+dataset.traindata[index].label
+dataset.traindata[index].image
 
-dataset.testdata[0].label
-dataset.testdata[0].image
+dataset.testdata[index].label
+dataset.testdata[index].image
 ```
 or you can get the entire 70 000 mnist digits in one set.
 
