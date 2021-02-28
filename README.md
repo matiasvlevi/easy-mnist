@@ -22,8 +22,8 @@ or you can get the entire 70 000 mnist digits in one set.
 ```js
 const mnist = require('easy-mnist').mnist;
 
-mnist[0].label
-mnist[0].image
+mnist[index].label
+mnist[index].image
 ```
 
 ## Format
