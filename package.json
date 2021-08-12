@@ -1,15 +1,15 @@
 {
   "name": "easy-mnist",
-  "version": "1.0.4",
+  "version": "1.1.1",
   "description": "A simple way to acces the MNIST dataset",
   "main": "main.js",
   "scripts": {
     "test": "test"
   },
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/matiasvlevi/easy-mnist.git"
-    },
+  },
   "keywords": [
     "MNIST",
     "mnist",
@@ -19,7 +19,6 @@
   "author": "Matias Vazquez-Levi",
   "license": "ISC",
   "dependencies": {
-    "fs": "0.0.1-security",
-    "mathjs": "^9.0.0"
+    "fs": "0.0.1-security"
   }
 }

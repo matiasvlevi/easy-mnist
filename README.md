@@ -42,6 +42,14 @@ console.log(dataset.traindata[0].image);
 // outputs:
 //  array (length of 784)
 ```
+
+## Batches
+You can also make your dataset with batches.
+```js
+const dataset = require('easy-mnist').makeBatch(100);
+```
+this will create a dataset with 100 length batches for the training & testing set.
+
 ## Shuffle
 You can also shuffle the training & testing set separately like so:
 
