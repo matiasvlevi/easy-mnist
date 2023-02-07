@@ -1,6 +1,6 @@
 {
   "name": "easy-mnist",
-  "version": "1.1.1",
+  "version": "1.2.1",
   "description": "A simple way to acces the MNIST dataset",
   "main": "main.js",
   "scripts": {
@@ -17,8 +17,6 @@
     "digits"
   ],
   "author": "Matias Vazquez-Levi",
-  "license": "ISC",
-  "dependencies": {
-    "fs": "0.0.1-security"
-  }
+  "license": "MIT",
+  "dependencies": {}
 }
